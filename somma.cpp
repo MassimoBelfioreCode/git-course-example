@@ -1,11 +1,14 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 int sum(int& , int& );
 void stampaMess();
 
 int main(){
-    
+    ifstream in("input.txt");
+    ofstream out("output.txt");
+
     int b = 2;
     int c = 3;
     cout << "la somma di due variabili: "<< sum(b, c) << endl;
