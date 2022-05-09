@@ -12,6 +12,7 @@ int main(){
     cout << "la somma di due variabili: "<< sum(b, c) << endl;
     cout << "il prodotto di due variabili: "<< mult(b, c) << endl;
     stampaMess();
+    cout << endl;
 
     return 0;
 }
@@ -29,6 +30,6 @@ void stampaMess(){
     cout << "Questo sembra un messaggio" << endl;
 }
 
-void calcola(){
-
+void Pippo(string nome){
+    nome = "Mi chiamo Pippo";
 }
