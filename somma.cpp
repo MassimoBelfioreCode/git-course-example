@@ -4,6 +4,7 @@ using namespace std;
 int sum(int& , int& );
 void stampaMess();
 
+void pignacolada(string);
 int main(){
     
     int b = 2;
@@ -29,5 +30,5 @@ void stampaMess(){
 }
 
 void calcola(){
-    
+
 }
