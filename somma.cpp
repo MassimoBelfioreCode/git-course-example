@@ -1,12 +1,14 @@
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 int sum(int& , int& );
 void stampaMess();
 
-void pignacolada(string);
 int main(){
-    
+    ifstream in("input.txt");
+    ofstream out("output.txt");
+
     int b = 2;
     int c = 3;
     cout << "la somma di due variabili: "<< sum(b, c) << endl;
@@ -30,6 +32,9 @@ void stampaMess(){
     cout << "Questo sembra un messaggio" << endl;
 }
 
+
 void Pippo(string nome){
     nome = "Mi chiamo Pippo";
 }
+
+void calcola();
