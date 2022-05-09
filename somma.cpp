@@ -27,3 +27,7 @@ int sum(int& var1, int& var2){
 void stampaMess(){
     cout << "Questo sembra un messaggio" << endl;
 }
+
+void calcola(){
+    
+}
