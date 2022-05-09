@@ -32,9 +32,8 @@ void stampaMess(){
     cout << "Questo sembra un messaggio" << endl;
 }
 
-
 void Pippo(string nome){
     nome = "Mi chiamo Pippo";
 }
 
-void calcola();
+void calcola(int p, double* tmp);
